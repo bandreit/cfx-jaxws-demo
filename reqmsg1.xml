@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ser="http://services.service.jaxw.sdj3.via/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ser:wakeUp>
+            <name>Albert</name>
+        </ser:wakeUp>
+        <ser:goToSleep>
+            <name>Albert</name>
+        </ser:goToSleep>
+    </soapenv:Body>
+</soapenv:Envelope>
